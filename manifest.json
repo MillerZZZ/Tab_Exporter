@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Tab Exporter Pro",
-  "version": "3.0",
+  "version": "3.1.0",
   "permissions": [
     "tabs", 
     "downloads", 
@@ -11,7 +11,8 @@
     "scripting"
   ],
   "host_permissions": [
-    "*://gemini.google.com/*"
+    "*://gemini.google.com/*",
+    "*://*.zhihu.com/*"
   ],
   "action": {
     "default_title": "导出标签页存档"
