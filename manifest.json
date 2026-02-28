@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Exporter Pro",
+  "version": "2.1",
+  "permissions": ["tabs", "downloads", "tabGroups"],
+  "action": {
+    "default_title": "多格式导出所有标签页"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
